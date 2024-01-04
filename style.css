@@ -1,0 +1,104 @@
+body {
+    background-color: #FFC567;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.form{
+    margin-top: 50px;
+    /* position: relative;
+    top:40%;
+    left: 30%; */
+    width: 600px;
+    height: 100%;
+    background-color: #FB7DA8;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+#bmiForm > label,input {
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#bmiForm > input{
+    width: 150px;
+    height: 25px;
+    margin-top: 20px;
+    outline: none;
+}
+
+#height{
+    margin-left: 105px;
+}
+
+.cntr{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cntr > div> input {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    height: 40px;
+    text-decoration: none;
+    width: auto;
+    background-color:#058cd7
+}
+
+#paragraph{
+    margin-left: 10px;
+}
+
+ #converter{
+    height: 194px;
+    width: 500px;
+    margin-top: 50px;
+    background-color: #058cd7;
+    padding: 20px;
+    border: 2px solid white; 
+    border-radius: 10px;
+}
+
+#converter > input , label{
+    margin: 15px;
+}
+
+#converter > input {
+    outline: none;
+    width: 150px;
+    height: 25px;
+    outline: none;
+}
+
+#converter > #submit{
+    padding:5px;
+    color: white;
+    font-size: 24px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    background-color:#FB7DA8;
+}
+
+.flxBx{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
